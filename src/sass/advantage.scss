@@ -19,39 +19,26 @@
         z-index: 4;
         top: -20%;
         left: 0;
-        max-width: 301px;
+        max-width: 360px;
         width: 100%;
-        height: 423px;
-
-       
+        height: 540px;   
     }
     
-
-
-
     .advantage-text {
-        
-       
         width: 100%;
         height: 100%;
-        padding: 50px 25px 50px 322px;
-
+        padding: 50px 25px 50px 380px;
         
         ul {
-            max-width: 597px;
+            padding-left: 10px;
+            padding-top: 40px;
             width: 100%;
             height: 100%;
-        
-
-            li {
-                list-style-type: none;
-            }
-            li:before {
-                color:  #00B9B6;
-                content: url(../img/dot.svg);
-                padding-right: 5px;
-            }
-    
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            list-style-image: url(../img/dot.svg);
         }
 
     }
