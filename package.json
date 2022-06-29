@@ -1,0 +1,11 @@
+{
+  "name": "kurc1-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Egor Narivonchik <104444214+Egorn92@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

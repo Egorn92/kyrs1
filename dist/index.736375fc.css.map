@@ -1,0 +1,1 @@
+{"mappings":"AACI","sources":["src/sass/heder.scss"],"sourcesContent":["header {\n    img {\n        width: 183px;\n        height: 36px;\n        flex: none;\n        order: 0;\n        flex-grow: 0;\n    }\n    \n\n}\n"],"names":[],"version":3,"file":"index.736375fc.css.map","sourceRoot":"/__parcel_source_root/"}
