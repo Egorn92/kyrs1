@@ -940,18 +940,6 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  .content {
-    max-width: 1088px;
-  }
-}
-
-@media (min-width: 768px) {
-  .content {
-    max-width: 800px;
-  }
-}
-
 button {
   color: #fff;
   background: linear-gradient(225deg, #00b9b6 0%, #00cdac 100%);
@@ -969,46 +957,6 @@ button {
   line-height: 120%;
   display: flex;
   box-shadow: 0 15px 30px #dce8f340;
-}
-
-@media (min-width: 1024px) {
-  button {
-    color: #fff;
-    background: linear-gradient(225deg, #00b9b6 0%, #00cdac 100%);
-    border-radius: 12px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 30px 14px;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-    display: flex;
-    box-shadow: 0 15px 30px #dce8f340;
-  }
-}
-
-@media (min-width: 768px) {
-  button {
-    color: #fff;
-    background: linear-gradient(225deg, #00b9b6 0%, #00cdac 100%);
-    border-radius: 12px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 30px 14px;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-    display: flex;
-    box-shadow: 0 15px 30px #dce8f340;
-  }
 }
 
 /*# sourceMappingURL=index.2ea83f37.css.map */

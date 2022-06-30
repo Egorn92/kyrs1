@@ -6,7 +6,6 @@
 @import url(./advantage.scss);
 @import url(./steps.scss);
 @import url(./about.scss);
-
 @import url(./reviews.scss);
 @import url(./reviews.scss);
 @import url(./seo.scss);
@@ -104,13 +103,7 @@ h6 {
 	align-items: center;
 	justify-content: center;
 
-    @media  (min-width: 1024px){
-        max-width: calc(1024px + 32px * 2);
-    }
-
-    @media  (min-width: 768px){
-        max-width: calc(768px + 16px * 2);
-    }
+  
 }
 
 button {
@@ -132,49 +125,4 @@ button {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-
-    @media  (min-width: 1024px){
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 30px 14px;
-        gap: 10px;
-        background: linear-gradient(225deg, #00B9B6 0%, #00CDAC 100%);
-        box-shadow: 0px 15px 30px rgba(220, 232, 243, 0.25);
-        border-radius: 12px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 120%;
-        color: #FFFFFF;
-        
-    }
-
-    @media  (min-width: 768px){
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 30px 14px;
-        gap: 10px;
-     
-        background: linear-gradient(225deg, #00B9B6 0%, #00CDAC 100%);
-        box-shadow: 0px 15px 30px rgba(220, 232, 243, 0.25);
-        border-radius: 12px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 120%;
-        color:  #FFFFFF;
-       
-
-        
-
-        
-    }
 }
